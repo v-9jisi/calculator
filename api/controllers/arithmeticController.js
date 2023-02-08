@@ -1,5 +1,5 @@
 'use strict';
-
+//add second comment
 exports.calculate = function(req, res) {
   req.app.use(function(err, req, res, next) {
     if (res.headersSent) {
